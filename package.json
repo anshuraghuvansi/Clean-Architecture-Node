@@ -4,6 +4,7 @@
   "description": "This project demonstrate clean architecture on node js",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "debug": "nodemon app.js"
   },
   "author": "anshu kumar",
