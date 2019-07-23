@@ -8,8 +8,7 @@ const User = require('../models/user');
 
 class UserRepository{
 
-    constructor(db){
-        this.db = db;
+    constructor(){
     }
 
     async createUser(params){

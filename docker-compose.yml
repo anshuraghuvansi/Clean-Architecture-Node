@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+
+    db:
+      image: mongo
+      restart: always
+      container_name: mongo_db
+      ports:
+        - 27017:27017
+
+    app:
+      build: ./
+      restart: always
+      container_name: user_app
+      depends_on: 
+        - db
+      ports:
+        - 8080:80
