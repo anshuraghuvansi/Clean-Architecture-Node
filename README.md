@@ -17,3 +17,11 @@ In this project i have implemented 4 API's:
 2. Run mongo db on your local machine or change the `DB_URI` in `.env` file.
 3. Then run `npm install`
 4. And then run `npm run debug`
+
+# Docker
+
+1. Run docker on your machine 
+2. Download the project and cd into it.
+3. Run `docker-compose up`
+
+Now you can access app on url `localhost:8080`
