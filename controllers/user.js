@@ -9,8 +9,8 @@ and Controllers all belong in here.
 */
 
 const constants        = require('../constants');
-const SignupBodyParams = require('../models/params');
-const SigninBodyParams = require('../models/params');
+const SignupBodyParams = require('../models/signup_params');
+const SigninBodyParams = require('../models/signin_params');
 const formatter        = require('../utils/formatter');
 const middleware       = require('../middlewares/auth');
 
